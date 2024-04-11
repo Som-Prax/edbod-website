@@ -469,7 +469,7 @@ body {
     font-family: "Gabriela";
   }
   .whatisedbod {
-    width: 19rem;
+    width: 17rem;
   }
   .ed {
     width: 23rem;
@@ -540,9 +540,6 @@ body {
   }
   .dashed-lines {
     row-gap: 1.2rem;
-  }
-  .whatisedbod {
-    width: 15rem;
   }
 }
 @media (max-width: 800px) and (min-width: 480px) {
@@ -1401,7 +1398,7 @@ body {
     font-family: "Gabriela";
   }
   .whatisedbod {
-    width: 50vw;
+    width: 17rem;
   }
   .ed {
     width: 50vw;
