@@ -85,7 +85,7 @@ body {
   position: absolute;
   width: 25rem;
   bottom: 11.7rem;
-  left: -22rem;
+  left: -21rem;
   transform: rotate(-70deg);
 }
 
@@ -312,7 +312,7 @@ body {
     position: absolute;
     width: 15rem;
     bottom: 15rem;
-    left: -14.5rem;
+    left: -14rem;
     transform: rotate(-68deg);
   }
   .paragraph {
@@ -448,7 +448,7 @@ body {
     position: absolute;
     width: 15rem;
     bottom: 15rem;
-    left: -15rem;
+    left: -13rem;
     transform: rotate(-68deg);
   }
   .questions {
@@ -598,9 +598,9 @@ body {
     top: 21rem;
   }
   .rainbow {
-    left: -25rem;
+    left: -21rem;
     top: 10rem;
-    transform: rotate(-63deg);
+    transform: rotate(-70deg);
   }
   body {
     padding-left: 3rem;
@@ -682,7 +682,7 @@ body {
   .rainbow {
     left: -22rem;
     top: 10rem;
-    transform: rotate(-70deg);
+    transform: rotate(-75deg);
   }
   body {
     padding-left: 3rem;
@@ -906,7 +906,7 @@ body {
     top: 17rem;
   }
   .rainbow {
-    left: -22rem;
+    left: -19.5rem;
     top: 10rem;
     transform: rotate(-79deg);
   }
@@ -1053,7 +1053,7 @@ body {
     top: 18rem;
   }
   .rainbow {
-    left: -18rem;
+    left: -17rem;
     top: 10rem;
     transform: rotate(-78deg);
   }
@@ -1378,7 +1378,7 @@ body {
     position: absolute;
     width: 15rem;
     bottom: 8rem;
-    left: -43.5vw;
+    left: -15.5rem;
     transform: rotate(-65deg);
   }
   .questions {
