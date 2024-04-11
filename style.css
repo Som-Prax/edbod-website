@@ -34,7 +34,7 @@ body {
 
 .cute {
   position: absolute;
-  right: 22vw;
+  right: 35rem;
   bottom: 0;
   z-index: 0;
 }
@@ -42,8 +42,8 @@ body {
 .edbod-container {
   position: absolute;
   display: flex;
-  left: -5vw;
-  top: 15vh;
+  left: -7rem;
+  top: 11rem;
   gap: 1rem;
 }
 
@@ -85,7 +85,7 @@ body {
   position: absolute;
   width: 25rem;
   bottom: 11.7rem;
-  left: -15vw;
+  left: -22rem;
   transform: rotate(-70deg);
 }
 
@@ -94,24 +94,24 @@ body {
   position: absolute;
   width: 105rem;
   height: 45rem;
-  right: 5vw;
-  bottom: 18vh;
+  right: 9rem;
+  bottom: 13rem;
   background-image: url(dots1.png);
 }
 
 .hero-bg {
   z-index: -100;
   position: absolute;
-  width: 35vw;
+  width: 55rem;
   border-right: 15rem solid transparent;
-  border-top: 59vh solid #3f8aa2;
+  border-top: 42rem solid #3f8aa2;
   padding: 3rem;
 }
 
 .decorative-semicircles {
   height: 4rem;
   display: flex;
-  transform: translateX(1.7vw);
+  transform: translateX(2.3rem);
 }
 
 .semicircle {
@@ -127,24 +127,24 @@ body {
   grid-row: 1/3;
   display: flex;
   flex-direction: column;
-  row-gap: 1.7vh;
+  row-gap: 1.3rem;
 }
 
 .dash {
   color: #3f8aa2;
   background-color: #3f8aa2;
   width: 0.4rem;
-  height: 3vh;
+  height: 2rem;
 }
 
 .whatisedbod {
-  width: 30vw;
+  width: 45rem;
 }
 
 .paragraph {
   line-height: 3rem;
   padding-left: 2.5rem;
-  width: 27vw;
+  width: 37rem;
   font-size: 2.2rem;
   color: #fff5ec;
   font-family: "Gabriela";
@@ -214,12 +214,24 @@ body {
     font-size: 50%;
   }
 }
-@media (max-width: 450px) {
-  html {
-    font-size: 30;
-  }
+@media (max-width: 480px) {
   body {
     padding: 1.2rem;
+  }
+  .questions {
+    padding-top: 2rem;
+    font-size: 3rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff5ec;
+  }
+  .whatisedbod {
+    width: 18rem;
+  }
+  .dash {
+    height: 3rem;
+  }
+  .dashed-lines {
+    row-gap: 1.5rem;
   }
   .hero {
     grid-template-rows: 1rem auto;
@@ -229,7 +241,7 @@ body {
     position: absolute;
     width: 24rem;
     border-right: 12rem solid transparent;
-    border-top: 39vh solid #3f8aa2;
+    border-top: 36rem solid #3f8aa2;
     padding: 3rem;
   }
   .semicircle {
@@ -241,10 +253,10 @@ body {
     font-size: 0.1rem;
   }
   .cute {
-    width: 63vw;
+    width: 26rem;
     position: absolute;
-    left: -28vw;
-    top: 9vh;
+    left: -9rem;
+    top: 9rem;
     z-index: 0;
   }
   .sem3 {
@@ -253,18 +265,18 @@ body {
   .dots1 {
     z-index: -10000;
     position: absolute;
-    width: 70vw;
-    height: 20vh;
+    width: 30rem;
+    height: 20rem;
     left: 9rem;
-    top: 22vh;
+    top: 22rem;
     background-image: url(dots1.png);
     background-size: 80%;
   }
   .edbod-container {
     position: absolute;
     display: flex;
-    left: -19.5vw;
-    top: 19vh;
+    left: -7rem;
+    top: 17rem;
   }
   .decorative-semicircles {
     height: 4rem;
@@ -280,7 +292,7 @@ body {
     position: absolute;
     width: 14rem;
     top: 16.5rem;
-    left: 2rem;
+    left: 3rem;
   }
   .paper {
     z-index: -1000;
@@ -300,35 +312,24 @@ body {
     position: absolute;
     width: 15rem;
     bottom: 15rem;
-    left: -37.5vw;
+    left: -14.5rem;
     transform: rotate(-68deg);
-  }
-  .questions {
-    padding-left: 2rem;
-    padding-top: 2rem;
-    letter-spacing: -1.7px;
-    font-size: 2.6rem;
-    -webkit-text-stroke-width: 0.6px;
-    -webkit-text-stroke-color: #fff5ec;
   }
   .paragraph {
     padding-top: 1rem;
     line-height: 1.6rem;
     padding-left: 2rem;
-    width: 30vw;
+    width: 15rem;
     font-size: 1.4rem;
     color: #fff5ec;
     font-family: "Gabriela";
   }
-  .whatisedbod {
-    width: 50vw;
-  }
   .ed {
-    width: 55vw;
+    width: 24rem;
   }
   .bod {
-    width: 40vw;
-    align-self: right;
+    width: 18rem;
+    transform: translate(5.5rem, -15rem);
   }
   .grid-container {
     display: grid;
@@ -356,9 +357,6 @@ body {
     grid-row: 2;
     grid-column: 2;
   }
-  .footer {
-    display: initial;
-  }
 }
 /* DIVIDER */
 /* DIVIDER */
@@ -379,7 +377,7 @@ body {
     position: absolute;
     width: 24rem;
     border-right: 12rem solid transparent;
-    border-top: 39vh solid #3f8aa2;
+    border-top: 35rem solid #3f8aa2;
     padding: 3rem;
   }
   .semicircle {
@@ -391,10 +389,10 @@ body {
     font-size: 0.1rem;
   }
   .cute {
-    width: 63vw;
+    width: 26rem;
     position: absolute;
-    left: -30vw;
-    top: 9vh;
+    left: -11rem;
+    top: 9rem;
     z-index: 0;
   }
   .sem3 {
@@ -403,18 +401,18 @@ body {
   .dots1 {
     z-index: -10000;
     position: absolute;
-    width: 70vw;
-    height: 20vh;
+    width: 30rem;
+    height: 20rem;
     left: 9rem;
-    top: 22vh;
+    top: 22rem;
     background-image: url(dots1.png);
     background-size: 80%;
   }
   .edbod-container {
     position: absolute;
     display: flex;
-    left: -19.5vw;
-    top: 19vh;
+    left: -8rem;
+    top: 17rem;
   }
   .decorative-semicircles {
     height: 4rem;
@@ -450,7 +448,7 @@ body {
     position: absolute;
     width: 15rem;
     bottom: 15rem;
-    left: -37.5vw;
+    left: -15rem;
     transform: rotate(-68deg);
   }
   .questions {
@@ -465,19 +463,19 @@ body {
     padding-top: 1rem;
     line-height: 1.5rem;
     padding-left: 2rem;
-    width: 30vw;
+    width: 13rem;
     font-size: 1.3rem;
     color: #fff5ec;
     font-family: "Gabriela";
   }
   .whatisedbod {
-    width: 50vw;
+    width: 19rem;
   }
   .ed {
-    width: 55vw;
+    width: 23rem;
   }
   .bod {
-    width: 40vw;
+    width: 17rem;
     align-self: right;
   }
   .grid-container {
@@ -506,19 +504,13 @@ body {
     grid-row: 2;
     grid-column: 2;
   }
-  .footer {
-    display: initial;
-  }
 }
 @media (max-width: 400px) {
-  .footer {
-    display: none;
-  }
   .cute {
-    width: 60vw;
+    width: 23rem;
     position: absolute;
-    left: -29vw;
-    top: 9vh;
+    left: -9rem;
+    top: 9rem;
     z-index: 0;
   }
   .hero-bg {
@@ -526,18 +518,38 @@ body {
     position: absolute;
     width: 24rem;
     border-right: 12rem solid transparent;
-    border-top: 40vh solid #3f8aa2;
+    border-top: 35rem solid #3f8aa2;
     padding: 3rem;
   }
   .body {
     margin-top: 6rem;
   }
+  .whatisedbod {
+    width: 17.4rem;
+  }
+  .dash {
+    height: 3rem;
+  }
+  .dashed-lines {
+    row-gap: 1.5rem;
+  }
+}
+@media (max-width: 380px) {
+  .dash {
+    height: 2.3rem;
+  }
+  .dashed-lines {
+    row-gap: 1.2rem;
+  }
+  .whatisedbod {
+    width: 15rem;
+  }
 }
 @media (max-width: 800px) and (min-width: 480px) {
   .hero-bg {
     width: 48rem;
-    border-right: 25rem solid transparent;
-    border-top: 50rem solid #3f8aa2;
+    border-right: 20rem solid transparent;
+    border-top: 63rem solid #3f8aa2;
   }
   .whatisedbod {
     width: 40rem;
@@ -548,22 +560,32 @@ body {
   .paragraph {
     width: 29rem;
     padding-top: 2rem;
+    line-height: 3.5rem;
   }
   .ed {
-    width: 45rem;
+    width: 60rem;
   }
   .bod {
-    width: 35rem;
+    width: 45rem;
+    transform: translate(15rem, -37rem);
   }
   .edbod-container {
-    left: -13rem;
-    top: 22rem;
+    display: flex;
+    flex-direction: column;
+    left: 6rem;
+    top: 19rem;
+  }
+  .paragraph {
+    font-size: 2.5rem;
+  }
+  .paragraph1 {
+    font-size: 2.5rem;
   }
   .dashed-lines {
-    row-gap: 1.1rem;
+    row-gap: 1.5rem;
   }
   .dash {
-    height: 3.75rem;
+    height: 4.5rem;
   }
   .cute {
     width: 70rem;
@@ -575,8 +597,8 @@ body {
     z-index: -1000;
   }
   .smpudu {
-    left: 40rem;
-    top: 23rem;
+    left: 36rem;
+    top: 21rem;
   }
   .rainbow {
     left: -25rem;
@@ -804,7 +826,7 @@ body {
     display: flex;
     flex-direction: column;
     left: 15.5rem;
-    top: 13rem;
+    top: 17rem;
   }
   .cute {
     width: 57rem;
@@ -817,7 +839,7 @@ body {
   }
   .smpudu {
     left: 28rem;
-    top: 10rem;
+    top: 13rem;
   }
   .rainbow {
     left: -20rem;
@@ -852,24 +874,25 @@ body {
   .hero-bg {
     width: 40rem;
     border-right: 10rem solid transparent;
-    border-top: 60vh solid #3f8aa2;
+    border-top: 50rem solid #3f8aa2;
   }
   .whatisedbod {
-    width: 30vw;
+    width: 33rem;
   }
   .paragraph {
-    width: 28vw;
+    width: 29rem;
     padding-top: 2rem;
   }
   .ed {
-    width: 37vw;
+    width: 40rem;
   }
   .bod {
-    width: 24vw;
+    width: 26rem;
+    transform: translateY(-1rem);
   }
   .edbod-container {
-    left: -3vw;
-    top: 27vh;
+    left: 2rem;
+    top: 24rem;
   }
   .cute {
     width: 63rem;
@@ -882,7 +905,7 @@ body {
   }
   .smpudu {
     width: 34rem;
-    left: 32vw;
+    left: 37rem;
     top: 17rem;
   }
   .rainbow {
@@ -890,12 +913,18 @@ body {
     top: 10rem;
     transform: rotate(-79deg);
   }
+  .dash {
+    height: 3rem;
+  }
+  .dashed-lines {
+    row-gap: 1rem;
+  }
   body {
     padding-top: 3rem;
     padding-left: 3rem;
   }
   .dots1 {
-    width: 70vw;
+    width: 80rem;
     top: 25rem;
   }
   .semicircle {
@@ -915,27 +944,33 @@ body {
   }
 }
 @media (max-width: 1300px) and (min-width: 1200px) {
+  .dash {
+    height: 2.5rem;
+  }
+  .dashed-lines {
+    width: 1rem;
+  }
   .hero-bg {
     width: 40rem;
     border-right: 10rem solid transparent;
-    border-top: 60vh solid #3f8aa2;
+    border-top: 50rem solid #3f8aa2;
   }
   .whatisedbod {
     width: 35rem;
   }
   .paragraph {
-    width: 24vw;
+    width: 28rem;
     padding-top: 2rem;
   }
   .ed {
-    width: 37vw;
+    width: 45rem;
   }
   .bod {
-    width: 24vw;
+    width: 30rem;
   }
   .edbod-container {
     left: 0vw;
-    top: 26vh;
+    top: 22rem;
   }
   .cute {
     width: 63rem;
@@ -948,7 +983,7 @@ body {
   }
   .smpudu {
     width: 34rem;
-    left: 37vw;
+    left: 45rem;
     top: 17rem;
   }
   .rainbow {
@@ -961,7 +996,7 @@ body {
     padding-left: 3rem;
   }
   .dots1 {
-    width: 70vw;
+    width: 90rem;
     top: 25rem;
   }
   .semicircle {
@@ -990,7 +1025,7 @@ body {
     width: 35rem;
   }
   .dash {
-    height: 2.2rem;
+    height: 2.4rem;
   }
   .paragraph {
     width: 30rem;
@@ -1030,7 +1065,7 @@ body {
     padding-left: 3rem;
   }
   .dots1 {
-    width: 70rem;
+    width: 90rem;
     top: 25rem;
   }
   .semicircle {
@@ -1048,6 +1083,217 @@ body {
     background-color: #3f8aa2;
     padding-bottom: 5rem;
   }
+}
+@media (max-width: 1600px) and (min-width: 1400px) {
+  .dots1 {
+    top: 20rem;
+  }
+}
+@media (max-width: 1700px) and (min-width: 1600px) {
+  .semicircle {
+    width: 9rem;
+    height: 4.5rem;
+  }
+  .edbod-container {
+    left: 1rem;
+  }
+  .smpudu {
+    left: 68rem;
+  }
+  .dots1 {
+    color: #fff5ec;
+    top: 20rem;
+  }
+}
+@media (max-width: 1900px) and (min-width: 1700px) {
+  .whatisedbod {
+    width: 50rem;
+  }
+  .hero-bg {
+    width: 60rem;
+  }
+  .hero-bg {
+    z-index: -100;
+    position: absolute;
+    width: 60rem;
+    border-right: 25rem solid transparent;
+    border-top: 60rem solid #3f8aa2;
+    padding: 3rem;
+  }
+  .dash {
+    height: 3.4rem;
+  }
+  .paragraph {
+    width: 50rem;
+    font-size: 3rem;
+    padding-top: 3rem;
+    line-height: 4.5rem;
+  }
+  .paragraph1 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    line-height: 4.5rem;
+  }
+  .semicircle {
+    width: 10rem;
+    height: 4.5rem;
+  }
+  .questions {
+    font-size: 5.5rem;
+  }
+  .rainbow {
+    width: 35rem;
+    left: -36rem;
+    top: 14rem;
+    transform: rotate(-68deg);
+  }
+  .ed {
+    width: 70rem;
+  }
+  .bod {
+    width: 50rem;
+  }
+  .edbod-container {
+    top: 20rem;
+    left: -13rem;
+  }
+  .smpudu {
+    width: 45rem;
+    left: 66rem;
+    top: 20rem;
+  }
+  .cute {
+    width: 80rem;
+  }
+  .dots1 {
+    width: 140rem;
+    top: 35rem;
+  }
+  .paper {
+    z-index: -10000;
+    width: 50rem;
+  }
+}
+@media (max-width: 3000px) and (min-width: 1900px) {
+  .whatisedbod {
+    width: 55rem;
+  }
+  .hero-bg {
+    width: 60rem;
+  }
+  .hero-bg {
+    z-index: -100;
+    position: absolute;
+    width: 65rem;
+    border-right: 25rem solid transparent;
+    border-top: 60rem solid #3f8aa2;
+    padding: 3rem;
+  }
+  .dash {
+    height: 3.4rem;
+  }
+  .paragraph {
+    width: 50rem;
+    font-size: 3rem;
+    padding-top: 3rem;
+    line-height: 4.5rem;
+  }
+  .paragraph1 {
+    font-size: 3rem;
+    padding-top: 3rem;
+    line-height: 4.5rem;
+  }
+  .semicircle {
+    width: 12rem;
+    height: 6rem;
+  }
+  .questions {
+    font-size: 5.5rem;
+  }
+  .rainbow {
+    width: 35rem;
+    left: -33rem;
+    top: 14rem;
+    transform: rotate(-68deg);
+  }
+  .ed {
+    width: 75rem;
+  }
+  .bod {
+    width: 55rem;
+  }
+  .edbod-container {
+    top: 17rem;
+    left: -7rem;
+  }
+  .smpudu {
+    width: 45rem;
+    left: 82rem;
+    top: 20rem;
+  }
+  .cute {
+    width: 90rem;
+    left: 0rem;
+  }
+  .dots1 {
+    color: #fff5ec;
+    width: 140rem;
+    top: 35rem;
+  }
+  .paper {
+    z-index: -10000;
+    width: 50rem;
+  }
+  /* .semicircle {
+    width: 10rem;
+    height: 5rem;
+  }
+
+  .paragraph {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    padding-top: 3rem;
+  }
+
+  .rainbow {
+    width: 35rem;
+    transform: rotate(-75deg);
+    left: -33rem;
+  }
+
+  .edbod-container {
+    top: 15rem;
+  }
+
+  .ed {
+    width: 70rem;
+  }
+
+  .bod {
+    width: 50rem;
+  }
+
+  .paper {
+    width: 45rem;
+  }
+
+  .smpudu {
+    width: 50rem;
+  }
+
+  .dash {
+    height: 3.4rem;
+  }
+
+  .dots1 {
+    color: #fff5ec;
+    width: 140rem;
+    top: 20rem;
+  }
+
+  .cute {
+    width: 70rem;
+  } */
 }
 @media (max-width: 380px) {
   html {
